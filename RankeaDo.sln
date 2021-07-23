@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackEnd", "BackEnd", "{6F54453F-98CC-4CF3-A6A0-112BB2213679}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RankeaDo.Functions", "RankeaDo.Functions\RankeaDo.Functions.csproj", "{F9119BFF-CF25-4B85-97E6-D0A3C99A01E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9119BFF-CF25-4B85-97E6-D0A3C99A01E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9119BFF-CF25-4B85-97E6-D0A3C99A01E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9119BFF-CF25-4B85-97E6-D0A3C99A01E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9119BFF-CF25-4B85-97E6-D0A3C99A01E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F9119BFF-CF25-4B85-97E6-D0A3C99A01E5} = {6F54453F-98CC-4CF3-A6A0-112BB2213679}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A885548F-66D9-4DCF-B794-F29705874D77}
+	EndGlobalSection
+EndGlobal
