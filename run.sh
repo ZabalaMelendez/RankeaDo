@@ -1,0 +1,4 @@
+donet run -c Debug
+
+
+

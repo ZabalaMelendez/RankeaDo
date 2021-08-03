@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackEnd", "BackEnd", "{6F54453F-98CC-4CF3-A6A0-112BB2213679}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RankeaDo.Functions", "RankeaDo.Functions\RankeaDo.Functions.csproj", "{F9119BFF-CF25-4B85-97E6-D0A3C99A01E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RankeaDo.Functions", "src\RankeaDo.Functions\RankeaDo.Functions.csproj", "{F9119BFF-CF25-4B85-97E6-D0A3C99A01E5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Portal", "Portal", "{258F50E3-B5C3-4048-A359-725BAE0DF346}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RankeaDo.Portal", "src\RankeaDo.Portal\RankeaDo.Portal.csproj", "{A8671D99-CFD1-4A31-92BC-4ED5EC3C5FCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RankeaDo.Portal", "src\RankeaDo.Portal\RankeaDo.Portal.csproj", "{A8671D99-CFD1-4A31-92BC-4ED5EC3C5FCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RankeaDo.Application", "src\RankeaDo.Application\RankeaDo.Application.csproj", "{7CD98325-90E2-49FC-BDA0-9EB49A1E8574}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,10 @@ Global
 		{A8671D99-CFD1-4A31-92BC-4ED5EC3C5FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8671D99-CFD1-4A31-92BC-4ED5EC3C5FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8671D99-CFD1-4A31-92BC-4ED5EC3C5FCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CD98325-90E2-49FC-BDA0-9EB49A1E8574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CD98325-90E2-49FC-BDA0-9EB49A1E8574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CD98325-90E2-49FC-BDA0-9EB49A1E8574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CD98325-90E2-49FC-BDA0-9EB49A1E8574}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F9119BFF-CF25-4B85-97E6-D0A3C99A01E5} = {6F54453F-98CC-4CF3-A6A0-112BB2213679}
 		{A8671D99-CFD1-4A31-92BC-4ED5EC3C5FCD} = {258F50E3-B5C3-4048-A359-725BAE0DF346}
+		{7CD98325-90E2-49FC-BDA0-9EB49A1E8574} = {6F54453F-98CC-4CF3-A6A0-112BB2213679}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A885548F-66D9-4DCF-B794-F29705874D77}
